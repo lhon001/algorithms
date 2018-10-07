@@ -1,4 +1,3 @@
-
 // Find the majority element (element that appears more than n/2 times)
 // Finding the majority element in an array involves finding an element that
 // appears strictly more than n/2 times where n is the size of the array.
