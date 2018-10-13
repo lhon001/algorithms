@@ -13,11 +13,9 @@ function isPangram(str) {
   let obj = {}
 
   for(let i of single){
-    if(obj[i] === undefined){
-      obj[i] = 1
-    }
+    obj[i] === undefined ? obj[i] = 1 : null
   }
-
+  
   return (Object.keys(obj).length === 26) ? true : false
 }
 
