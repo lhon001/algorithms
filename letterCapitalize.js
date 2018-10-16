@@ -6,8 +6,7 @@
 function letterCapitalize(sentence) {
   let wordArray = sentence.split(' ')
   for (let i = 0; i < wordArray.length; i++) {
-    let firstLetter = wordArray[i].split('')[0]
-    firstLetter.toUpperCase() 
+    wordArray[i] = wordArray[i].replace(wordArray[i][0], wordArray[i][0].toUpperCase())
   }
   return wordArray.join(' ')
 }
