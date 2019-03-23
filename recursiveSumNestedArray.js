@@ -20,5 +20,5 @@ function recSum(array) {
   }
 }
 
-let arr = [1, [1, 1, [1, 1, [1, 1]]];
-recSum(arr);
+let arr = [1, [1, 1, [1, 1, [1, 1]]]];
+console.log(recSum(arr));
