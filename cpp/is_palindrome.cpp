@@ -10,5 +10,5 @@ std::string is_palindrome(std::string text) {
 }
 
 int main() {
-  std::cout << is_palindrome("madm");
+  std::cout << is_palindrome("madam");
 }
